@@ -19,6 +19,7 @@
 	<main class="playground">
 		<section>
 			<div class="card-row">
+				<span class="arrow"><</span>
 				<div class="card active" id="bhma" style="background-image: url('resources/images/projects/bath_hema.png'); background-color: #162D50">
 					<span>Bath Historical Martial Arts</span>
 				</div>
@@ -28,6 +29,7 @@
 				<div class="card" id="io" style="background-image: url('resources/images/projects/into_oblivion.png')">
 					<span>Into Oblivion</span>
 				</div>
+				<span class="arrow">></span>
 			</div>
 			<div class="info-box active" id="bhma">
 				<div class="title">

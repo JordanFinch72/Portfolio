@@ -13,6 +13,24 @@
     width: 100%;
     margin-bottom: 1rem;
 }
+.playground section .card-row .arrow {
+    display: none;
+    font-size: 2.5rem;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+.playground section .card-row .arrow:hover {
+    opacity: 50%;
+}
+.playground section .card-row .arrow:first-of-type {
+    margin-right: 1rem;
+}
+.playground section .card-row .arrow:last-of-type {
+    margin-left: 1rem;
+}
 .playground section .card-row .card {
     display: flex;
     flex-flow: column;
@@ -71,4 +89,21 @@
 .playground section .info-box > .content {
     padding: 0 1rem;
     font-size: 0.8rem;
+}
+
+@media screen and (max-width: 768px)
+{
+    .playground section .card-row {
+        flex-flow: row nowrap;
+        width: 90%;
+    }
+    .playground section .card-row .card {
+        display: none;
+    }
+    .playground section .card-row .card.active {
+        display: flex;
+    }
+    .playground section .card-row .arrow {
+        display: flex;
+    }
 }

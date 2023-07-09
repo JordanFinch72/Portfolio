@@ -21,10 +21,10 @@
 				<div class="title">Overview</div>
 				<div class="content">
 					<p>
-						Name: Jordan Elliot Finch <br />
-						Age: 26 (28/10/1996) <br />
-						Residence: Bath, England <br />
-						CV: <a href="resources/files/Curriculum Vitae.docx">Download (.docx)</a> | <a href="resources/files/Curriculum Vitae.odt">(.odt)</a> | <a href="resources/files/Curriculum Vitae.pdf" target="_blank">(.pdf)</a>
+						<strong>Name</strong>: Jordan Elliot Finch <br />
+						<strong>Age</strong>: 26 (28/10/1996) <br />
+						<strong>Residence</strong>: Bath, England <br />
+						<strong>CV</strong>: <a href="resources/files/Curriculum Vitae.docx">Download (.docx)</a> | <a href="resources/files/Curriculum Vitae.odt">(.odt)</a> | <a href="resources/files/Curriculum Vitae.pdf" target="_blank">(.pdf)</a>
 					</p>
 				</div>
 			</div>

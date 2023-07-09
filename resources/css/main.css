@@ -1,11 +1,21 @@
+@font-face {
+    font-family: "Source Serif";
+    src: url("../fonts/SourceSerif4.ttf")
+}
+@font-face {
+    font-family: "Crimson Text Regular";
+    src: url("../fonts/CrimsonText-Regular.ttf")
+}
+
 * {
     box-sizing: border-box;
 }
 
 html {
     font-size: 20px;
-    font-family: Calibri Light, sans-serif; /* TODO: Crimson Text or something similar */
+    font-family: "Crimson Text Regular", sans-serif; /* TODO: Crimson Text or something similar */
     background-color: #a5a5a5;
+    overflow-y: scroll;
 }
 body {
     display: flex;
@@ -107,6 +117,23 @@ footer {
     border-top: 1px solid black;
     text-align: center;
     background-color: #fefefe;
+}
+
+/* Non-interfering scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #a5a5a5;
+    border-radius: 5px 5px 5px 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #444141;
+    border-radius: 5px 5px 5px 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #212020;
+    border-radius: 5px 5px 5px 5px;
 }
 
 

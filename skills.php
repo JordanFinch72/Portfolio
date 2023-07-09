@@ -36,7 +36,7 @@
 				<div class="content">
 					<p>
 						Since 2022 I've been working with Ruby on Rails and have fully fallen in love with the technology. I have experience with many core Rails gems and features (e.g the asset pipeline) and have worked with too many project-specific, third-party gems to count. <br /><br />
-						I also have experience with deploying Rails projects through Heroku and AWS.
+						I also have experience with deploying Rails projects through Heroku, Cloud66, and AWS.
 						<br /><br />
 					</p>
 					Specific skills:

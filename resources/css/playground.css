@@ -2,6 +2,8 @@
     display: flex;
     flex-flow: column;
     align-items: center;
+
+    font-family: "Source Serif", serif;
 }
 .playground section .card-row {
     display: flex;
@@ -69,5 +71,4 @@
 .playground section .info-box > .content {
     padding: 0 1rem;
     font-size: 0.8rem;
-    /* font-family: "Source Serif", serif; /* TODO: Source Serif, or something similar */
 }

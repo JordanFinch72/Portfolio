@@ -7,9 +7,9 @@
 	</div>
 	<nav>
 		<a href="about.php">Personal Details</a>
-		|
+		<span>|</span>
 		<a href="projects.php">Projects</a>
-		|
+		<span>|</span>
 		<a href="skills.php">Skills</a>
 	</nav>
 	<div class="right">

@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="description" content="Portfolio for Jordan Elliot Finch, web and software developer.">
+	<meta name="author" content="Jordan Elliot Finch">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="theme-color" content="#FFCC00" /> <!-- TODO: Check that this doesn't look abysmal -->
-	<!-- TODO: Metadata: descriptions, etc. -->
 	<link rel="stylesheet" type="text/css" href="resources/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="resources/css/playground.css" />
 	<script src="resources/js/playground.js"></script>

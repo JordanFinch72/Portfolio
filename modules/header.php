@@ -1,7 +1,9 @@
 <header>
 	<div class="left">
-		<div class="desktop">Jordan Elliot Finch</div>
-		<div class="mobile">J.E.F.</div>
+		<a href="/index.php">
+			<span class="desktop">Jordan Elliot Finch</span>
+			<span class="mobile">J.E.F.</span>
+		</a>
 	</div>
 	<nav>
 		<a href="#">Personal Details</a>

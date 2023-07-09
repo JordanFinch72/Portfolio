@@ -9,6 +9,7 @@
 </head>
 <body>
 	<?php require("modules/header.php") ?>
+
 	<div class="title-header">
 		<h2>Welcome</h2>
 	</div>
@@ -26,6 +27,7 @@
 			</div>
 		</section>
 	</main>
+
 	<?php require("modules/footer.php"); ?>
 </body>
 </html>

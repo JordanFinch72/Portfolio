@@ -19,13 +19,13 @@
 	<main class="playground">
 		<section>
 			<div class="card-row">
-				<div class="card active" id="bhma" style="background-image: url('https://placekitten.com/300/250')">
+				<div class="card active" id="bhma" style="background-image: url('resources/images/projects/bath_hema.png')">
 					<span>Bath Historical Martial Arts</span>
 				</div>
-				<div class="card" id="lema" style="background-image: url('https://placekitten.com/300/250')">
+				<div class="card" id="lema" style="background-image: url('resources/images/projects/lema.png')">
 					<span>LEMA: Linguistic Etymology Map Assistant</span>
 				</div>
-				<div class="card" id="io" style="background-image: url('https://placekitten.com/300/250')">
+				<div class="card" id="io" style="background-image: url('resources/images/projects/into_oblivion.png')">
 					<span>Into Oblivion</span>
 				</div>
 			</div>

@@ -20,6 +20,9 @@
     box-shadow: 0 4px 4px 0 rgba(0,0,0,0.25);
     width: 300px;
     height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .playground section .card-row .card.active {
     transform: scale(105%);
@@ -62,4 +65,5 @@
 .playground section .info-box > .content {
     padding: 0 1rem;
     font-size: 0.8rem;
+    /* font-family: "Source Serif", serif; /* TODO: Source Serif, or something similar */
 }

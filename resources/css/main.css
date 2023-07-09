@@ -4,7 +4,7 @@
 
 html {
     font-size: 20px;
-    font-family: Calibri Light, sans-serif; /* TODO: Different font */
+    font-family: Calibri Light, sans-serif; /* TODO: Crimson Text or something similar */
     background-color: #a5a5a5;
 }
 body {
@@ -83,6 +83,7 @@ div.title-header h2 {
     text-transform: uppercase;
     text-align: center;
     font-weight: normal;
+    font-size: 1.6rem;
 }
 
 main {

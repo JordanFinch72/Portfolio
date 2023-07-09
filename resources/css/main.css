@@ -52,6 +52,12 @@ header nav {
     flex: 5 5;
     padding: 1rem;
 }
+header nav a {
+    font-weight: normal;
+}
+header nav a:hover {
+    font-weight: 600;
+}
 header .right {
     display: flex;
     flex-flow: column wrap;
@@ -70,10 +76,13 @@ header .right .icons {
 }
 
 div.title-header {
-    text-align: center;
     background-image: url("https://placekitten.com/1200/150");
+}
+div.title-header h2 {
     color: white;
     text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
 }
 
 main {

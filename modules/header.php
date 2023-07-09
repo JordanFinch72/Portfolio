@@ -1,14 +1,14 @@
 <header>
 	<div class="left">
-		<a href="/index.php">
+		<a href="index.php">
 			<span class="desktop">Jordan Elliot Finch</span>
 			<span class="mobile">J.E.F.</span>
 		</a>
 	</div>
 	<nav>
-		<a href="#">Personal Details</a>
-		<a href="#">Projects</a>
-		<a href="#">Skills</a>
+		<a href="about.php">Personal Details</a>
+		<a href="projects.php">Projects</a>
+		<a href="skills.php">Skills</a>
 	</nav>
 	<div class="right">
 		Get in touch:

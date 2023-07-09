@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="theme-color" content="#FFCC00" />
-	<!-- TODO: Metadata -->
+	<meta name="theme-color" content="#FFCC00" /> <!-- TODO: Check that this doesn't look abysmal -->
+	<!-- TODO: Metadata: descriptions, etc. -->
 	<link rel="stylesheet" type="text/css" href="resources/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="resources/css/playground.css" />
 	<title>Jordan Elliot Finch's Portfolio</title>
@@ -17,10 +17,12 @@
 
 	<main class="playground">
 		<section>
-			<div class="widget-row">
-				<img src="https://placekitten.com/300/250" alt="Jordan and Marcie" />
+			<div class="card-row">
+				<div class="card" style="background-image: url('https://placekitten.com/300/250');">
+					<span>Myself and Marcie</span>
+				</div>
 			</div>
-			<div class="info-box">
+			<div class="info-box active">
 				<div class="title">My name is Jordan Elliot Finch.</div>
 				<div class="content">
 					<p>

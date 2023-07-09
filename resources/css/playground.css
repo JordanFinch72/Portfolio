@@ -4,18 +4,35 @@
     align-items: center;
     padding: 1rem;
 }
-.playground section .widget-row {
+.playground section .card-row {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    width: 100%;
 }
-.playground section .widget-row > img {
+.playground section .card-row .card {
+    display: flex;
+    flex-flow: column;
+    justify-content: end;
+    align-items: center;
     border: 1px solid black;
     box-shadow: 0 4px 4px 0 rgba(0,0,0,0.25);
+    width: 300px;
+    height: 250px;
+}
+.playground section .card-row .card.active {
+    transform: scale(105%);
+}
+.playground section .card-row .card > span {
+    background-color: rgba(0,0,0,0.75);
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 0.85rem;
 }
 .playground section .info-box {
-    display: flex;
+    display: none;
     flex-flow: column;
 
     margin: 0.5rem;
@@ -24,9 +41,23 @@
     border-radius: 1px 1px 1px 1px;
     background-color: #fefefe;
 }
+.playground section .info-box.active {
+    display: flex;
+}
 .playground section .info-box > .title {
+    display: flex;
+    flex-flow: column;
     font-weight: 600;
     padding: 0 1rem;
+    width: fit-content;
+}
+.playground section .info-box a {
+    font-size: 0.8rem;
+    color: blue;
+    font-weight: normal;
+}
+.playground section .info-box a:hover {
+    font-weight: 600;
 }
 .playground section .info-box > .content {
     padding: 0 1rem;

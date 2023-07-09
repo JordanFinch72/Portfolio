@@ -1,0 +1,14 @@
+
+
+
+
+
+@media(min-width: 390px)
+{
+    .mobile {
+        display: flex;
+    }
+    .desktop {
+        display: none;
+    }
+}

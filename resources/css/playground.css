@@ -1,0 +1,34 @@
+.playground section {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 1rem;
+}
+.playground section .widget-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.playground section .widget-row > img {
+    border: 1px solid black;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.25);
+}
+.playground section .info-box {
+    display: flex;
+    flex-flow: column;
+
+    margin: 0.5rem;
+    padding: 0.5rem 0;
+    border: 1px solid black;
+    border-radius: 1px 1px 1px 1px;
+    background-color: #fefefe;
+}
+.playground section .info-box > .title {
+    font-weight: 600;
+    padding: 0 1rem;
+}
+.playground section .info-box > .content {
+    padding: 0 1rem;
+    font-size: 0.8rem;
+}

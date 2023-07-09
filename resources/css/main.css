@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 20px;
     font-family: Calibri Light, sans-serif; /* TODO: Different font */
@@ -16,6 +20,9 @@ a {
     color: black;
     font-weight: 600;
 }
+p {
+    margin: 0;
+}
 .mobile {
     display: none;
 }
@@ -25,7 +32,7 @@ header {
     flex-flow: row;
     flex: 2 2;
 
-    background-color: white;
+    background-color: #fefefe;
 }
 header .left {
     display: flex;
@@ -62,6 +69,13 @@ header .right .icons {
     width: 60%;
 }
 
+div.title-header {
+    text-align: center;
+    background-image: url("https://placekitten.com/1200/150");
+    color: white;
+    text-transform: uppercase;
+}
+
 main {
     display: flex;
     flex-flow: column;
@@ -69,8 +83,13 @@ main {
 }
 
 footer {
-    display: flex;
     flex: 1 1;
+    padding: 1rem;
+
+    border-top: 1px solid black;
+    font-weight: 600;
+    text-align: center;
+    background-color: #fefefe;
 }
 
 

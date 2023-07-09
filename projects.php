@@ -19,10 +19,10 @@
 	<main class="playground">
 		<section>
 			<div class="card-row">
-				<div class="card active" id="bhma" style="background-image: url('resources/images/projects/bath_hema.png')">
+				<div class="card active" id="bhma" style="background-image: url('resources/images/projects/bath_hema.png'); background-color: #162D50">
 					<span>Bath Historical Martial Arts</span>
 				</div>
-				<div class="card" id="lema" style="background-image: url('resources/images/projects/lema.png')">
+				<div class="card" id="lema" style="background-image: url('resources/images/projects/lema.png'); background-color: #536DAA">
 					<span>LEMA: Linguistic Etymology Map Assistant</span>
 				</div>
 				<div class="card" id="io" style="background-image: url('resources/images/projects/into_oblivion.png')">
@@ -69,8 +69,8 @@
 						<br /><br />
 						It has a fair bit of content, but is also largely a playground for me to play around with new versions of web technologies as they emerge; and to practise new design patterns as I learn about them.
 						<br /><br />
-						Specific features:
 					</p>
+					Specific features:
 					<ul>
 						<li>A huge PHP back-end, handling data processing and security via a bespoke RESTful API</li>
 						<li>Heavy use of JavaScript to handle the game, including:

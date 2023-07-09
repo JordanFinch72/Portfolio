@@ -18,7 +18,7 @@
 	<main class="playground">
 		<section>
 			<div class="card-row">
-				<div class="card" style="background-image: url('https://placekitten.com/300/250');">
+				<div class="card cover" style="background-image: url('resources/images/jordan_and_marcie.jpg');">
 					<span>Myself and Marcie</span>
 				</div>
 			</div>

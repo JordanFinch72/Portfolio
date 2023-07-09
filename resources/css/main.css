@@ -74,9 +74,17 @@ header .right .icons {
     justify-content: space-evenly;
     width: 60%;
 }
+header .right .icons a img {
+    width: 30px;
+    height: 30px;
+}
 
 div.title-header {
-    background-image: url("https://placekitten.com/1200/150");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/header.png");
+    height: 7vw;
 }
 div.title-header h2 {
     color: white;
@@ -95,9 +103,7 @@ main {
 footer {
     flex: 1 1;
     padding: 1rem;
-
     border-top: 1px solid black;
-    font-weight: 600;
     text-align: center;
     background-color: #fefefe;
 }

@@ -57,7 +57,7 @@
 				</div>
 				<div class="content">
 					<p>
-						I have 1-2 years' experience in React, having used it for my university thesis project (LEMA) as part of the MERN stack (for which I won an award from the respected Institution of Analysts and Programmers), as well as at my current job.
+						I have 1-2 years' experience in React, having used it for my university thesis project (LEMA) as part of the MERN stack (for which I won an award from the respected <a href="https://www.iap.org.uk/main/the-iap-prize/" target="_blank">Institution of Analysts and Programmers</a>), as well as at my current job.
 						<br /><br />
 						Additionally, I used React for any other project that I could while at university, finding it to be a great way to rapidly develop front-end web applications.
 					</p>

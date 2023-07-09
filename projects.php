@@ -54,7 +54,7 @@
 					<p>
 						In 2022, as part of my thesis project for (BSc) Computing and Software Development, I developed an <a href="https://www.iap.org.uk/main/the-iap-prize/" target="_blank">award-winning</a> tool inspired by the <a href='https://www.reddit.com/r/etymologymaps/' target='_blank'>/r/etymologymaps</a> subreddit. Made in collaboration with the kind creator of <a href="https://etymologyexplorer.com" target='_blank'>Etymology Explorer</a>, this tool allows users to enter any word they can think of and see the etymology of that word be displayed on a map of the world before their very eyes!
 						<br /><br />
-						The users could then use the tool to tweak the map to their liking, by changing the size, labels, and colours of the nodes. They could also export or import the maps (in image and data form) for sharing. In addition, there is also a "community" feature of the tool that allows people to share the maps they've made.
+						The users can then use the tool to tweak the map to their liking, by changing the size, labels, and colours of the nodes. They can also export or import the maps (in image and data form) for sharing. In addition, there is also a "community" feature of the tool that allows people to share the maps they've made.
 						<br /><br />
 						This was coded in React and Express.js, using a PouchDB document-based database for storing users' map data.
 						<br /><br />
@@ -69,7 +69,7 @@
 				</div>
 				<div class="content">
 					<p>
-						Long ago, my friend and I were playing a Dungeons and Dragons-esque game with each other online, when he had the idea that I should make our virtual world into reality into a game. Thus, this side-project of mine was born. This project has been on-and-off since about 2015 and was written in raw JavaScript and PHP with a custom, RESTful API and MySQL database.
+						Long ago, my friend and I were playing a Dungeons and Dragons-esque game with each other online, when he had the idea that I should make our virtual world into a game. Thus, this side-project of mine was born. This project has been on-and-off since about 2015 and was written in raw JavaScript and PHP with a custom, RESTful API and MySQL database.
 						<br /><br />
 						It has a fair bit of content, but is also largely a playground for me to play around with new versions of web technologies as they emerge; and to practise new design patterns as I learn about them.
 						<br /><br />

@@ -20,7 +20,7 @@
 	<main class="playground">
 		<section>
 			<div class="card-row">
-				<div class="card cover" style="background-image: url('resources/images/jordan_and_marcie.jpg');">
+				<div class="card cover" style="background-image: url('resources/images/jordan_and_marcie.jpg'); display: flex;">
 					<span>Myself and Marcie</span>
 				</div>
 			</div>

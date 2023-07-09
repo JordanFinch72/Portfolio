@@ -1,0 +1,41 @@
+.alternating section {
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+}
+.alternating section .info-box {
+    display: flex;
+    flex-flow: column;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+    border: 1px solid black;
+    border-radius: 1px 1px 1px 1px;
+    background-color: #fefefe;
+    width: 100%;
+}
+.alternating section:nth-child(even) .info-box {
+    background-color: #e4e3d6;
+}
+.alternating section .info-box > .title {
+    display: flex;
+    flex-flow: column;
+    font-weight: 600;
+    padding: 0 1rem;
+    width: fit-content;
+}
+.alternating section .info-box a {
+    font-size: 0.8rem;
+    color: blue;
+    font-weight: normal;
+}
+.alternating section .info-box a:hover {
+    font-weight: 600;
+}
+.alternating section .info-box > .content {
+    padding: 0 1rem;
+    font-size: 0.8rem;
+    /* font-family: "Source Serif", serif; /* TODO: Source Serif, or something similar */
+}
+.alternating section .info-box > .content .item-wrapper {
+    margin-top: 0.5rem;
+}
